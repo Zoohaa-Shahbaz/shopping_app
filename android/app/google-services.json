@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "860338486644",
+    "project_id": "easylogin-94d54",
+    "storage_bucket": "easylogin-94d54.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860338486644:android:f1985efe8e6ccdc7c04021",
+        "android_client_info": {
+          "package_name": "com.example.shopping_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuXIAbNLvsAxYMcsNWgn1q1MJHS9DhZpo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

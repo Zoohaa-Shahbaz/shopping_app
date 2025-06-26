@@ -1,0 +1,47 @@
+// android/app/build.gradle
+
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'  // FlutterFire plugin
+    id 'kotlin-android'
+    id 'dev.flutter.flutter-gradle-plugin'
+}
+
+android {
+    namespace = "com.example.shopping_app"
+    compileSdk = flutter.compileSdkVersion
+    ndkVersion = "25.1.8937393"  // ✅ Set
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    defaultConfig {
+        applicationId = "com.example.shopping_app"
+        minSdk = 23
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
+    }
+
+    buildscript {
+        ext.kotlin_version = '1.9.22' // ✅ Use a recent stable Kotlin version
+        repositories {
+            google()
+            mavenCentral()
+        }
+        dependencies {
+            classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+            classpath 'com.android.tools.build:gradle:8.3.0'
+            classpath 'com.google.gms:google-services:4.4.0' // Ensure it's present
+        }
+    }
+}
+
+flutter {
+    source = "../.."
+}
