@@ -14,14 +14,13 @@ A simple Flutter e-commerce app built with Firebase, featuring:
 - 🛒 Add and remove items from cart
 - 🔐 Google Sign-In authentication
 - 🧠 Firebase Firestore integration
-- 🔔 (Optional) Push notifications support
 
 ## 🔧 Tech Stack
 
 - **Flutter**
 - **Firebase (Auth, Firestore, Storage)**
 - **Dart**
-- **GetX (optional)**
+- **GetX**
 - **Google Sign-In**
 
 ## 📸 Screenshots
