@@ -34,7 +34,7 @@ A simple Flutter e-commerce app built with Firebase, featuring:
 
 ## 📱 APK
 
-You can download the latest APK from [Google Drive](https://drive.google.com/your-link).
+You can download the latest APK from [Google Drive]([https://drive.google.com/your-link](https://drive.google.com/file/d/1H5zN3Ife-ad1a5zehedCDCmXAvS_3KKL/view?usp=drive_link).
 
 ## 🛠 Setup Instructions
 
