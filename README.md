@@ -28,7 +28,7 @@ A simple Flutter e-commerce app built with Firebase, featuring:
 
 | Home Screen | Product Details | Cart Page | Sign-In |
 |-------------|------------------|-----------|---------|
-| ![Home](Screenshots/HomeScreen.jpeg) | ![Details](Screenshots/OrderScreen.jpeg) |
+| ![Home](lib/Screenshots/HomeScreen.jpeg) | ![Details](lib/Screenshots/OrderScreen.jpeg) |
 
 > 📷 Add your screenshots inside a `screenshots/` folder in your project root.
 
