@@ -1,16 +1,44 @@
-# shopping_app
+# 🛍️ Flutter Shopping App
 
-A new Flutter project.
+A simple Flutter e-commerce app built with Firebase, featuring:
 
-## Getting Started
+- Product listing with real-time Firestore backend
+- Add to cart functionality
+- Google Sign-In using Firebase Authentication
+- GetX for state management (optional)
+- Clean UI for shopping experience
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📦 Fetch products from Firebase Firestore
+- 🛒 Add and remove items from cart
+- 🔐 Google Sign-In authentication
+- 🧠 Firebase Firestore integration
+- 🔔 (Optional) Push notifications support
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🔧 Tech Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter**
+- **Firebase (Auth, Firestore, Storage)**
+- **Dart**
+- **GetX (optional)**
+- **Google Sign-In**
+
+## 📸 Screenshots
+
+| Home Screen | Product Details | Cart Page | Sign-In |
+|-------------|------------------|-----------|---------|
+| ![Home](Screenshots/HomeScreen.jpeg) | ![Details](Screenshots/OrderScreen.jpeg) |
+
+> 📷 Add your screenshots inside a `screenshots/` folder in your project root.
+
+## 📱 APK
+
+You can download the latest APK from [Google Drive](https://drive.google.com/your-link).
+
+## 🛠 Setup Instructions
+
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/Zoohaa-Shahbaz/shopping_app.git
+   cd shopping_app
